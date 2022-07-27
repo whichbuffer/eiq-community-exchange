@@ -1,4 +1,4 @@
-# Index
+# YARA Index
 
 | Yara Index Number | Description |
 | ----------------- | ----------- |
