@@ -1,3 +1,5 @@
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+
 # EclecticIQ Community
 
 The goal of this project is to provide community inspired use cases leveraging the visibility of the EclecticIQ endpoint solution. The EclecticIQ endpoint osquery-based agent and EclecticIQ osquery extension provides unrivaled visibility into file, process, users, registry, and network events for all server, workstation, laptop, and container endpoints.
