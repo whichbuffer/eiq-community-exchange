@@ -63,7 +63,7 @@ Query numbering follows the *(Q + rule number)* format to make each Live Query e
 
 | Index Range | Topic |
 | ----------- | ----- |
-| 1-9999 | Universal queries applicable to more than one operating system. |
+| 1-999 | Universal queries applicable to more than one operating system. |
 | 1000 - 1999 | Windows queries only applicable to Microsoft Windows. |
 | 2000 - 2999 | Linux queries generally applicable to any Linux distribution. |
 | 3000 - 3999 | macOS queries only applicable to Apple macOS. |

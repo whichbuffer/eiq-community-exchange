@@ -38,7 +38,7 @@ Pack numbering follows the *(P + rule number)* format to make each pack easily r
 
 | Index Range | Topic |
 | ----------- | ----- |
-| 1-9999 | Universal packs applicable to more than one operating system. |
+| 1-999 | Universal packs applicable to more than one operating system. |
 | 1000 - 1999 | Windows packs only applicable to Microsoft Windows. |
 | 2000 - 2999 | Linux packs generally applicable to any Linux distribution. |
 | 3000 - 3999 | macOS packs only applicable to Apple macOS. |
