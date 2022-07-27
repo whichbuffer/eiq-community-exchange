@@ -25,7 +25,7 @@ Rules follow the *(Y + rule number)* format to make each rule easily referencabl
 
 | Index Range | Topic |
 | ----------- | ----- |
-| 1-9999 | Universal rules applicable to more than one operating system. |
+| 1-999 | Universal rules applicable to more than one operating system. |
 | 1000 - 1999 | Windows rules only applicable to Microsoft Windows. |
 | 2000 - 2999 | Linux rules generally applicable to any Linux distribution. |
 | 3000 - 3999 | macOS rules only applicable to Apple macOS. |
