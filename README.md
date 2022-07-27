@@ -26,7 +26,7 @@ becoming a contributor, check out these resources:
 - Check the [license](LICENSE.txt) for information regarding the distribution
   and modification of content.
 
-## Community references
+## Other Resources
 List of other locations providing queries. These sites have not been individually validated and you should review content before executing in your environment. Listed alphabetically:
 - [Cisco Talos osquery queries](https://github.com/Cisco-Talos/osquery_queries)
 - [FleetDM qtandard query library](https://github.com/fleetdm/fleet/tree/main/docs/01-Using-Fleet/standard-query-library)
