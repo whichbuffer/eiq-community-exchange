@@ -1,3 +1,8 @@
+# Packs <-> Use Cases
+Packs are use cases and use cases are expressed as packs. Each pack includes a number of different queries all aligned to specific outcomes or use cases. 
+
+Use the [pack index](pack_index.md) to locate the use case most valuable to your efforts.
+
 # Packs overview
 Packs group queries into a logical category for a specific outcome. Once defined, you can run all queries included in a pack simultaneously.
 

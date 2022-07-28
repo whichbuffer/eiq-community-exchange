@@ -1,5 +1,5 @@
-# Live Query Index
+Event Filter Index
 
-| Query Index Number | Description |
+| Filter Index Number | Description |
 | ----------------- | ----------- |
-| Q0 | Placeholder |
+| F0 | Placeholder |

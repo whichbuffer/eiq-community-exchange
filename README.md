@@ -9,7 +9,7 @@ While the content is aligned to the EclecticIQ platform, many of the queries may
 
 ## Get started
 
-You will need an EclecticIQ endpoint platform installed. You can either download the free version here or speak with EclecticIQ about a commercially available version that includes additional features and functionality.
+You will need an EclecticIQ endpoint platform installed. You can either download the [free version here](https://github.com/eclecticiq/eiq-er-ce) or [speak with EclecticIQ](mailto:sales@eclecticiq.com) about a commercially available version that includes additional features and functionality.
 
 *All content should be tested in a lab environment before executing against anything in production.*
 
