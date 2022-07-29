@@ -1,4 +1,5 @@
-<!--- CPU ID comment test -->
+-- Comments are ignored. Copy and paste into EcelcticIQ Live Query. 
+-- Outcome: CPU information from Windows, macOS, and Linux platforms
 select
   feature,
   value,
