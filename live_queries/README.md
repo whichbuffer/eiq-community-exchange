@@ -79,7 +79,7 @@ Each index is further broken down into specific sub-groups.
 | 100 - 199 | Process |
 | 200 - 299 | Network |
 | 300 - 399 | Monitoring Use cases |
-| 400 - 499 | *undefined* |
+| 400 - 499 | User |
 | 500 - 599 | *undefined* |
 | 600 - 699 | *undefined* |
 | 700 - 799 | *undefined* |

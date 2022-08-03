@@ -32,10 +32,10 @@ Rules follow the *(Y + rule number)* format to make each rule easily referencabl
 
 Refer to the [yara index](yara_index.md) for desriptions of each yara rule.
 
-Each index is further broken down into specific sub-groups.
-(i.e., P2174 would be a pack focused on process visibility only for Linux.)
+Each YARA rule is further broken down into specific sub-groups.
+(i.e., P2174 would be a rule focused on processes only for Linux.)
 
-| Index Grouping | Topic Group Description |
+| YARA Grouping | Topic Group Description |
 | -------------- | ----------------------- |
 | 1 - 99 | System information |
 | 100 - 199 | Process |

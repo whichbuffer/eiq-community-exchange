@@ -2,14 +2,18 @@
 
 | Operating Environment | Pack Index Number | Description | Attribution |
 | --------------------- | ----------------- | ----------- | ----------- |
+| Universal | | | |
 | Universal | P0 | Placeholder |
-| | [P1](Universal_P1-999/P1.conf) | Hardware Monitoring | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
-| | [P2](Universal_P1-999/P2.conf) | Incident Response | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
-| | [P3](Universal_P1-999/P3.conf) | IT Conpliance | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
-| | [P4](Universal_P1-999/P4.conf) | osquery monitoring | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
-| | [P5](Universal_P1-999/P5.conf) | unwanted Chrome extension | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
-| | [P6](Universal_P1-999/P6.conf) | vulnerability management | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
-| --------------------- | ----------------- | ----------- | ----------- |
-| Linux | [P2000](Linux_P2000-2999/P2000.conf) | ossec rootkit | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
-| --------------------- | ----------------- | ----------- | ----------- |
-| macOS| [P3000](macOS_P3000-3999/P3000.conf) | macOS attacks | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
+| | [P91.conf](Universal_P1-999/P91.conf) | Hardware Monitoring | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
+| | [P92.conf](Universal_P1-999/P92.conf) | IT Conpliance | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
+| | [P93.conf](Universal_P1-999/P93.conf) | osquery monitoring | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
+| | [P94.conf](Universal_P1-999/P94.conf) | unwanted Chrome extension | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
+| | [P95.conf](Universal_P1-999/P95.conf) | vulnerability management | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
+| Windows | | | |
+| | [P1801.conf]((Windows_P1000-1999/P1801.conf) | Windows Attacks| [osquery](https://github.com/osquery/osquery/tree/master/packs) |
+| | [P1802.conf](Windows_P1000-1999/P1802.conf) | Windows Hardening | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
+| Linux | | | |
+| | [P2801.conf](Linux_P2000-2999/P2801.conf) | ossec rootkit | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
+| macOS | | | |
+| | [P3801.conf](macOS_P3000-3999/P3801.conf) | macOS attacks | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
+| | [P3802.conf](macOS_P3000-3999/P3802.conf) | Incident Response | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
