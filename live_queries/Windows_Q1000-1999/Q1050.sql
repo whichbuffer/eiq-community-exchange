@@ -6,7 +6,7 @@ SELECT
     WHEN 0 THEN 'TRUE'
     WHEN 1 THEN 'FALSE'
   END 'Firewall Disabled',
-  DATETIME(mtime, 'unixepoch', 'localtime') AS 'Last Modified'
+  DATETIME(mtime, 'unixepoch', 'localtime') AS 'Last Modified'   -- Calculate last change to firewall
 FROM
   registry
 WHERE
