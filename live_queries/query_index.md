@@ -9,7 +9,16 @@
 | [Q4.sql](Universal_Q1-999/Q4.sql) | BIOS details from Windows, macOS, and Linux platforms |
 | [Q5.sql](Universal_Q1-999/Q5.sql) | Kernel version from Windows, macOS, and Linux platforms |
 | [Q6.sql](Universal_Q1-999/Q6.sql) | Time since last reboot from Windows, macOS, and Linux platforms |
+| [Q7.sql](Universal_Q1-999/Q7.sql) | View installed certificates on all platforms |
+| [Q8.sql](Universal_Q1-999/Q8.sql) | View users configured on all platforms |
+| [Q9.sql](Universal_Q1-999/Q9.sql) | List programs set to run at startup |
+| [Q200.sql](Universal_Q1-999/Q200.sql) | MAC Address table from ARP and NDP |
+| [Q201.sql](Universal_Q1-999/Q201.sql) | Active network interfaces all platforms |
+| Windows | |
+| [Q1000.sql](Windows_Q1000-1999/Q1000.sql) | Hard drive status on Windows platforms |
 | [Q1050.sql](Windows_Q1000-1999/Q1050.sql) | Firewall status on Windows platforms |
 | [Q1000.sql](Windows_Q1000-1999/Q1000.sql) | Drive information from Windows endpoints |
-| [Q2000.sql](Linux_Q2000-2999/Q2000.sql) | Drive root mount information from Linux endpoints |
-| [Q3000.sql](macOS_Q3000-3999/Q3000.sql) | Drive root mount information from macOS endpoints |
+| Liux | |
+| [Q2000.sql](Linux_Q2000-2999/Q2000.sql) | Root drive mount information from Linux endpoints |
+| macOSs | |
+| [Q3000.sql](macOS_Q3000-3999/Q3000.sql) | Root drive mount information from macOS endpoints |
