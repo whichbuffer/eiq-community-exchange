@@ -1,5 +1,8 @@
 Event Filter Index
 
-| Filter Index Number | Description |
-| ----------------- | ----------- |
-| F0 | Placeholder |
+| Operating Environment | Filter Index Number | Description | 
+| --------------------- | ------------------- | ----------- |
+| Universal | | |
+| Windows | | |
+| Liux | | |
+| macOS | | |
