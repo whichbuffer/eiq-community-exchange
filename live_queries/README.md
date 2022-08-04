@@ -71,7 +71,7 @@ Query numbering follows the *(Q + rule number)* format to make each Live Query e
 Refer to the [query index](query_index.md) for desriptions of each Live Query.
 
 Each index is further broken down into specific sub-groups.
-(i.e., P2174 would be live queries focused on process visibility for all platforms.)
+(i.e., Q2174 would be live queries focused on process visibility for all platforms.)
 
 | Index Grouping | Topic Group Description |
 | -------------- | ----------------------- |

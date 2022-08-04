@@ -12,11 +12,13 @@
 | | [Q7.sql](Universal_Q1-999/Q7.sql) | View installed certificates on all platforms | |
 | | [Q8.sql](Universal_Q1-999/Q8.sql) | View users configured on all platforms | |
 | | [Q9.sql](Universal_Q1-999/Q9.sql) | List programs set to run at startup | |
+| | [Q100.sql](Universal_Q1-999/Q100.sql) | Processes with username, size, time, and open sockets for all platforms | 
 | | [Q200.sql](Universal_Q1-999/Q200.sql) | MAC Address table from ARP and NDP | |
 | | [Q201.sql](Universal_Q1-999/Q201.sql) | Active network interfaces all platforms | |
 | Windows | | | |
 | | [Q1000.sql](Windows_Q1000-1999/Q1000.sql) | Hard drive status on Windows platforms | |
 | | [Q1050.sql](Windows_Q1000-1999/Q1050.sql) | Firewall status on Windows platforms | |
+| | [Q1101.sql](Windows_Q1000-1999/Q1101.sql) | Dynamic Link Libraries loaded for Windows platforms | |
 | | [Q1401.sql](Windows_Q1000-1999/Q1401.sql) | Windows Login events with the Logon type translated | Jon Nelson @VMware |
 | Liux | | | |
 | | [Q2000.sql](Linux_Q2000-2999/Q2000.sql) | Root drive mount information from Linux endpoints | |

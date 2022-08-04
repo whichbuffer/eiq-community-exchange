@@ -69,7 +69,7 @@ Event Filter numbering follows the *(F + rule number)* format to make each Event
 Refer to the [event filter index](filter_index.md) for desriptions of each Event Filter
 
 Each index is further broken down into specific sub-groups.
-(i.e., P2174 would be an event filter focused on process filtering only for Linux.)
+(i.e., F2174 would be an event filter focused on process filtering only for Linux.)
 
 | Index Grouping | Topic Group Description |
 | -------------- | ----------------------- |
@@ -77,7 +77,7 @@ Each index is further broken down into specific sub-groups.
 | 100 - 199 | Process |
 | 200 - 299 | Network |
 | 300 - 399 | File |
-| 400 - 499 | *undefined* |
+| 400 - 499 | User |
 | 500 - 599 | *undefined* |
 | 600 - 699 | *undefined* |
 | 700 - 799 | *undefined* |
