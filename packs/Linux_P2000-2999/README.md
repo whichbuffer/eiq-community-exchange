@@ -12,13 +12,13 @@ Each index is further broken down into specific sub-groups.
 
 | Index Grouping | Topic Group Description |
 | -------------- | ----------------------- |
-| 1 - 99 | System information |
-| 100 - 199 | Process |
-| 200 - 299 | Network |
-| 300 - 399 | Monitoring Use cases |
-| 400 - 499 | *undefined* |
-| 500 - 599 | *undefined* |
-| 600 - 699 | *undefined* |
-| 700 - 799 | *undefined* |
-| 800 - 899 | Threat hunting |
-| 900 - 999 | Threat hunting *more* |
+| P2001 - P2099 | System information |
+| P2100 - P2199 | Process |
+| P2200 - P2299 | Network |
+| P2300 - P2399 | Monitoring Use cases |
+| P2400 - P2499 | User |
+| P2500 - P2599 | *undefined* |
+| P2600 - P2699 | *undefined* |
+| P2700 - P2799 | *undefined* |
+| P2800 - P2899 | Threat hunting |
+| P2900 - P2999 | Threat hunting *more* |

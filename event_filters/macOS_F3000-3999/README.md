@@ -8,17 +8,17 @@ Event Filter numbering follows the *(F + rule number)* format to make each Event
 Refer to the [event filter index](filter_index.md) for desriptions of each Event Filter
 
 Each index is further broken down into specific sub-groups.
-(i.e., P3174 would be an event filter focused on process filtering only for macOS.)
+(i.e., F3174 would be an event filter focused on process filtering only for macOS.)
 
 | Index Grouping | Topic Group Description |
 | -------------- | ----------------------- |
-| 1 - 99 | System information |
-| 100 - 199 | Process |
-| 200 - 299 | Network |
-| 300 - 399 | File |
-| 400 - 499 | *undefined* |
-| 500 - 599 | *undefined* |
-| 600 - 699 | *undefined* |
-| 700 - 799 | *undefined* |
-| 800 - 899 | *undefined* |
-| 900 - 999 | *undefined* |
+| F3001 - F3099 | System information |
+| F3100 - F3199 | Process |
+| F3200 - F3299 | Network |
+| F3300 - F3399 | File |
+| F3400 - F3499 | User|
+| F3500 - F3599 | *undefined* |
+| F3600 - F3699 | *undefined* |
+| F3700 - F3799 | *undefined* |
+| F3800 - F3899 | *undefined* |
+| F3900 - F3999 | *undefined* |

@@ -9,17 +9,17 @@ Event Filter numbering follows the *(F + rule number)* format to make each Event
 Refer to the [event filter index](filter_index.md) for desriptions of each Event Filter
 
 Each index is further broken down into specific sub-groups.
-(i.e., P174 would be an event filter focused on process filtering for all platforms.)
+(i.e., F174 would be an event filter focused on process filtering for all platforms.)
 
 | Index Grouping | Topic Group Description |
 | -------------- | ----------------------- |
-| 1 - 99 | System information |
-| 100 - 199 | Process |
-| 200 - 299 | Network |
-| 300 - 399 | File |
-| 400 - 499 | *undefined* |
-| 500 - 599 | *undefined* |
-| 600 - 699 | *undefined* |
-| 700 - 799 | *undefined* |
-| 800 - 899 | *undefined* |
-| 900 - 999 | *undefined* |
+| F1 - F99 | System information |
+| F100 - F199 | Process |
+| F200 - F299 | Network |
+| F300 - F399 | File |
+| F400 - F499 | User |
+| F500 - F599 | *undefined* |
+| F600 - F699 | *undefined* |
+| F700 - F799 | *undefined* |
+| F800 - F899 | *undefined* |
+| F900 - F999 | *undefined* |
