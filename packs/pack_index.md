@@ -12,6 +12,7 @@
 | Windows | | | |
 | | [P1801.conf]((Windows_P1000-1999/P1801.conf) | Windows Attacks| [osquery](https://github.com/osquery/osquery/tree/master/packs) |
 | | [P1802.conf](Windows_P1000-1999/P1802.conf) | Windows Hardening | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
+| | [P1803.conf](Windows_P1000-1999/P1803.conf) | Threat Hunting pack - Windows | |
 | Linux | | | |
 | | [P2801.conf](Linux_P2000-2999/P2801.conf) | ossec rootkit | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
 | macOS | | | |
