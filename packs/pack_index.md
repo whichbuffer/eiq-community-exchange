@@ -10,7 +10,7 @@
 | | [P94.conf](Universal_P1-999/P94.conf) | unwanted Chrome extension | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
 | | [P95.conf](Universal_P1-999/P95.conf) | vulnerability management | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
 | Windows | | | |
-| | [P1801.conf]((Windows_P1000-1999/P1801.conf) | Windows Attacks| [osquery](https://github.com/osquery/osquery/tree/master/packs) |
+| | [P1801.conf](Windows_P1000-1999/P1801.conf) | Windows Attacks| [osquery](https://github.com/osquery/osquery/tree/master/packs) |
 | | [P1802.conf](Windows_P1000-1999/P1802.conf) | Windows Hardening | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
 | | [P1803.conf](Windows_P1000-1999/P1803.conf) | Threat Hunting pack - Windows | |
 | Linux | | | |
