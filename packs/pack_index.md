@@ -4,11 +4,11 @@
 | --------------------- | ----------------- | ----------- | ----------- |
 | Universal | | | |
 | Universal | P0 | Placeholder |
-| | [P91.conf](Universal_P1-999/P91.conf) | Hardware Monitoring | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
-| | [P92.conf](Universal_P1-999/P92.conf) | IT Conpliance | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
-| | [P93.conf](Universal_P1-999/P93.conf) | osquery monitoring | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
-| | [P94.conf](Universal_P1-999/P94.conf) | unwanted Chrome extension | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
-| | [P95.conf](Universal_P1-999/P95.conf) | vulnerability management | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
+| | [P0091.conf](Universal_P1-999/P0091.conf) | Hardware Monitoring | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
+| | [P0092.conf](Universal_P1-999/P0092.conf) | IT Conpliance | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
+| | [P0093.conf](Universal_P1-999/P0093.conf) | osquery monitoring | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
+| | [P0094.conf](Universal_P1-999/P0094.conf) | unwanted Chrome extension | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
+| | [P0095.conf](Universal_P1-999/P0095.conf) | vulnerability management | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
 | Windows | | | |
 | | [P1801.conf](Windows_P1000-1999/P1801.conf) | Windows Attacks| [osquery](https://github.com/osquery/osquery/tree/master/packs) |
 | | [P1802.conf](Windows_P1000-1999/P1802.conf) | Windows Hardening | [osquery](https://github.com/osquery/osquery/tree/master/packs) |

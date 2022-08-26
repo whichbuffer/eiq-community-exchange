@@ -3,18 +3,18 @@
 | Operating Environment | Query Index Number | Description | Attribution |
 | --------------------- | ------------------ | ----------- | ----------- |
 | Universal | | | |
-| | [Q1.sql](Universal_Q1-999/Q1.sql) | CPU information from Windows, macOS, and Linux platforms | |
-| | [Q2.sql](Universal_Q1-999/Q2.sql) | Basic hardware information from Windows, macOS, and Linux platforms | |
-| | [Q3.sql](Universal_Q1-999/Q3.sql) | Operating System details from Windows, macOS, and Linux platforms | |
-| | [Q4.sql](Universal_Q1-999/Q4.sql) | BIOS details from Windows, macOS, and Linux platforms | |
-| | [Q5.sql](Universal_Q1-999/Q5.sql) | Kernel version from Windows, macOS, and Linux platforms | |
-| | [Q6.sql](Universal_Q1-999/Q6.sql) | Time since last reboot from Windows, macOS, and Linux platforms | |
-| | [Q7.sql](Universal_Q1-999/Q7.sql) | View installed certificates on all platforms | |
-| | [Q8.sql](Universal_Q1-999/Q8.sql) | View users configured on all platforms | |
-| | [Q9.sql](Universal_Q1-999/Q9.sql) | List programs set to run at startup | |
-| | [Q100.sql](Universal_Q1-999/Q100.sql) | Processes with username, size, time, and open sockets for all platforms | 
-| | [Q200.sql](Universal_Q1-999/Q200.sql) | MAC Address table from ARP and NDP | |
-| | [Q201.sql](Universal_Q1-999/Q201.sql) | Active network interfaces all platforms | |
+| | [Q0001.sql](Universal_Q1-999/Q0001.sql) | CPU information from Windows, macOS, and Linux platforms | |
+| | [Q0002.sql](Universal_Q1-999/Q0002.sql) | Basic hardware information from Windows, macOS, and Linux platforms | |
+| | [Q0003.sql](Universal_Q1-999/Q0003.sql) | Operating System details from Windows, macOS, and Linux platforms | |
+| | [Q0004.sql](Universal_Q1-999/Q0004.sql) | BIOS details from Windows, macOS, and Linux platforms | |
+| | [Q0005.sql](Universal_Q1-999/Q0005.sql) | Kernel version from Windows, macOS, and Linux platforms | |
+| | [Q0006.sql](Universal_Q1-999/Q0006.sql) | Time since last reboot from Windows, macOS, and Linux platforms | |
+| | [Q0007.sql](Universal_Q1-999/Q0007.sql) | View installed certificates on all platforms | |
+| | [Q0008.sql](Universal_Q1-999/Q0008.sql) | View users configured on all platforms | |
+| | [Q0009.sql](Universal_Q1-999/Q0009.sql) | List programs set to run at startup | |
+| | [Q0100.sql](Universal_Q1-999/Q0100.sql) | Processes with username, size, time, and open sockets for all platforms | 
+| | [Q0200.sql](Universal_Q1-999/Q0200.sql) | MAC Address table from ARP and NDP | |
+| | [Q0201.sql](Universal_Q1-999/Q0201.sql) | Active network interfaces all platforms | |
 | Windows | | | |
 | | [Q1000.sql](Windows_Q1000-1999/Q1000.sql) | Hard drive status on Windows platforms | |
 | | [Q1050.sql](Windows_Q1000-1999/Q1050.sql) | Firewall status on Windows platforms | |
