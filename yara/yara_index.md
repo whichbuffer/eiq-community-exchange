@@ -1,9 +1,12 @@
 # YARA Index
-
-| Yara Index Number | Description |
-| ----------------- | ----------- |
-| Y100 | Hunts for references to Log4J balls |
-| Y101 | Hunts for references to Log4J imports |
-| Y102 | Hunts for references to Log4J java in class form |
-| Y103 | Hunts for references to Log4J java in source form |
-| Y104 | Hunts for references to Log4J JndiLookup |
+| Operating Environment | Yara Index Number | Description | Attribution |
+| --------------------- | ----------------- | ----------- | ----------- |
+| Universal | | |
+| | [Y0800.yara](Universal_Y1-Y999/Y0800.yara) | Hunts for references to Log4J balls | Tim Brown @timb_machine |
+| | [Y0801.yara](Universal_Y1-Y999/Y0801.yara) | Hunts for references to Log4J imports |  Tim Brown @timb_machine |
+| | [Y0802.yara](Universal_Y1-Y999/Y0802.yara) | Hunts for references to Log4J java in class form |  Tim Brown @timb_machine |
+| | [Y0803.yara](Universal_Y1-Y999/Y0803.yara) | Hunts for references to Log4J java in source form |  Tim Brown @timb_machine |
+| | [Y0804.yara](Universal_Y1-Y999/Y0804.yara) | Hunts for references to Log4J JndiLookup |  Tim Brown @timb_machine |
+| Windows | | |
+| Linux | | |
+| macOS | | |
