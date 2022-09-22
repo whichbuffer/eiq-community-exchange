@@ -19,6 +19,7 @@
 | | [Q1000.sql](Windows_Q1000-1999/Q1000.sql) | Hard drive status on Windows platforms | |
 | | [Q1050.sql](Windows_Q1000-1999/Q1050.sql) | Firewall status on Windows platforms | |
 | | [Q1101.sql](Windows_Q1000-1999/Q1101.sql) | Dynamic Link Libraries loaded for Windows platforms | |
+| | [Q1301.sql](Windows_Q1000-1999/Q1301.sql) | Windows security events with nested extraction| |
 | | [Q1401.sql](Windows_Q1000-1999/Q1401.sql) | Windows Login events with the Logon type translated | Jon Nelson @VMware |
 | Liux | | | |
 | | [Q2000.sql](Linux_Q2000-2999/Q2000.sql) | Root drive mount information from Linux endpoints | |
