@@ -4,11 +4,18 @@
 -- Option: Change characters as required in the select statement; ['^','+','$','%','A'] are currently used
 -- Option: Increase / decrease thresholds in the where statement
 -- Attribution: Jordan Durham @EclecticIQ
-select LENGTH(cmdline) - LENGTH(REPLACE(cmdline, '^', '')) as suspicious1,
-LENGTH(cmdline) - LENGTH(REPLACE(cmdline, '+', '')) as suspicious2,
-LENGTH(cmdline) - LENGTH(REPLACE(cmdline, '$', '')) as suspicious3,
-LENGTH(cmdline) - LENGTH(REPLACE(cmdline, '%', '')) as suspicious4,
-LENGTH(cmdline) - LENGTH(REPLACE(cmdline, 'A', '')) as suspicious5,
-cmdline
-from win_process_events
-where suspicious1 > 10 or suspicious2 > 10 or suspicious3 > 10 or suspicious4 > 10 or suspicious5 > 10
+select
+  LENGTH (cmdline) - LENGTH (REPLACE (cmdline, '^', '')) as suspicious1,
+  LENGTH (cmdline) - LENGTH (REPLACE (cmdline, '+', '')) as suspicious2,
+  LENGTH (cmdline) - LENGTH (REPLACE (cmdline, '$', '')) as suspicious3,
+  LENGTH (cmdline) - LENGTH (REPLACE (cmdline, '%', '')) as suspicious4,
+  LENGTH (cmdline) - LENGTH (REPLACE (cmdline, 'A', '')) as suspicious5,
+  cmdline
+from
+  win_process_events
+where
+  suspicious1 > 10
+  or suspicious2 > 10
+  or suspicious3 > 10
+  or suspicious4 > 10
+  or suspicious5 > 10
