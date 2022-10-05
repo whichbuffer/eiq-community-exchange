@@ -24,6 +24,7 @@
 | | [Q1303.sql](Windows_Q1000-1999/Q1301.sql) | Detect high volume of suspicious characters are detected in Powershell commands| |
 | | [Q1304.sql](Windows_Q1000-1999/Q1301.sql) | Monitor for suspicious Powershell cmdlets| |
 | | [Q1305.sql](Windows_Q1000-1999/Q1301.sql) | Monitor Windows process events for instances of 'base64' string in Powershell commands| |
+| | [Q1306.sql](Windows_Q1000-1999/Q1301.sql) | Monitor Windows process events for Mimikatz module names| |
 | | [Q1401.sql](Windows_Q1000-1999/Q1401.sql) | Windows Login events with the Logon type translated | Jon Nelson @VMware |
 | Liux | | | |
 | | [Q2000.sql](Linux_Q2000-2999/Q2000.sql) | Root drive mount information from Linux endpoints | |
