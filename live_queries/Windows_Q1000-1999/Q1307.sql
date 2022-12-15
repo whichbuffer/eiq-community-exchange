@@ -1,4 +1,4 @@
--- Comments are ignored. Copy and paste into EcelcticIQ Live Query.
+-- Comments are ignored. Copy and paste into EclecticIQ Live Query.
 -- Overview: SQL command to detect lolbins activity through EclecticIQ osquery extension's table "win_process_events" 
 -- Attribution: Himanshu Yadav @EclecticIQ
 select 
