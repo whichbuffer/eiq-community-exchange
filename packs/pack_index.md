@@ -14,7 +14,6 @@
 | | [P1802.conf](Windows_P1000-1999/P1802.conf) | Windows Hardening | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
 | | [P1803.conf](Windows_P1000-1999/P1803.conf) | Threat Hunting pack - Windows | |
 | | [P1804.conf](Windows_P1000-1999/P1804.conf) | CIS Benchmarking pack for Hardening - Windows | |
-| | [P1805.conf](Windows_P1000-1999/P1805.conf) | Lolbins tracking - Windows | |
 | Linux | | | |
 | | [P2801.conf](Linux_P2000-2999/P2801.conf) | ossec rootkit | [osquery](https://github.com/osquery/osquery/tree/master/packs) |
 | macOS | | | |
