@@ -1,3 +1,10 @@
+/*
+   YARA Rule Set
+   Author: Tim Brown @timb_machine
+   Date: 21-12-15
+   Identifier: Log4J
+*/
+/* Rule Set ----------------------------------------------------------------- */
 rule log4jJndiLookup {
   meta:
     author = "Tim Brown @timb_machine"
