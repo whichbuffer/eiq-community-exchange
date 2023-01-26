@@ -27,7 +27,8 @@
 | | [Q1306.sql](Windows_Q1000-1999/Q1306.sql) | Monitor Windows process events for Mimikatz module names| |
 | | [Q1307.sql](Windows_Q1000-1999/Q1307.sql) | Monitor Windows process events for Lolbins activity| |
 | | [Q1401.sql](Windows_Q1000-1999/Q1401.sql) | Windows Login events with the Logon type translated | Jon Nelson @VMware |
-| | [Q1801.sql](Windows_Q1000-1999/Q1801.sql) |Hunts for references to Mustang Panda European Commission-Themed Lure | EclecticIQ Threat Research |
+| | [Q1801.sql](Windows_Q1000-1999/Q1801.sql) | Hunts for references to Mustang Panda European Commission-Themed Lure | EclecticIQ Threat Research |
+| | [Q1802.sql](Windows_Q1000-1999/Q1802.sql) | Hunts for ppersistence technique used by Mustang Panda European Commission-Themed Lure Campaign| EclecticIQ Threat Research |
 | Linux | | | |
 | | [Q2000.sql](Linux_Q2000-2999/Q2000.sql) | Root drive mount information from Linux endpoints | |
 | | [Q2301.sql](Linux_Q2000-2999/Q2301.sql) | Search for potential ssh tunnels | |
