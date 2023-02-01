@@ -12,11 +12,11 @@ select
   json_extract(windows_eventlog.data, '$.EventData.LogonType') as 'logon_type',
   case
     json_extract(windows_eventlog.data, '$.EventData.LogonType')
-    when '2' then 'INTERACTIVE'
+    when '2' then 'CONSOLE'
     when '3' then 'NETWORK'
     when '4' then 'BATCH'
     when '5' then 'SERVICE'
-    when '7' then 'UNLOCK'
+    when '7' then 'SCREEN_UNLOCK'
     when '8' then 'NETWORK_CLEAR_TEXT'
     when '9' then 'NEW_CREDENTIALS'
     when '10' then 'REMOTE_INTERACTIVE'
