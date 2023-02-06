@@ -1,6 +1,6 @@
 -- Comments are ignored. Copy and paste into EcelcticIQ Live Query.
--- Overview: Hunting for persistence technique used by Mustang Panda during European Commission-Themed Lure campaign
--- Outcome: Detection of registry key value set events on registry location used by campaign
+-- Overview: Hunts for references to Gamaredon APT during Ukraine & NATO security services target campaign
+-- Outcome: Detection of process and remote address used in campaign
 -- Attribution: EclecticIQ Threat Research
 
 select w.action,
