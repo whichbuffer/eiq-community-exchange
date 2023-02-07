@@ -64,3 +64,33 @@ rule qakbot_loader {
       uint16(0) == 0x2a2f and filesize < 30KB and
       1 of ($s*) and 4 of them
 }
+
+*/
+/* Rule Set ----------------------------------------------------------------- */
+rule QakBot_OneNote {
+    meta:
+    author = "EclecticIQ Researcher"
+    creation_date = "2023-02-06" 
+    filetype = "OneNote"
+    description = "Detects QakBot Malware Delivered by OneNote" 
+    classification = "TLP:WHITE"
+    version = "1.0"
+    md5 = "7f2c68afd0d99d634813c305dae67a1b"
+   strings:
+      $ = "' https://www.instructables.com/How-to-Make-a-message-box-using-VBScript/" fullword ascii
+      $ = "WshShell.RegWrite \"HKCU\\SOFTWARE\\Firm\\Soft\\Name\", content, \"REG_SZ\"" fullword ascii
+      $ = "Z:\\build\\one\\attachment.hta" fullword wide
+      $ = "var content = document.getElementById(\"content\").innerText;" fullword ascii
+      $ = "attachment.hta" fullword wide
+      $ = "WshShell.RegDelete(\"HKCU\\SOFTWARE\\Firm\\Soft\\Name\")" fullword ascii
+      $ = "<div id=\"content\">f30ku30kn30kc30kt30ki30ko30kn30k 30ks30kl30ke30ke30kp30k(30km30ki30kl30kl30ki30ks30k)30k{30kv30ka30kr30k 30k" ascii
+      /* GUID FileDataStoreObject https://blog.didierstevens.com/ */
+      $ = {E7 16 E3 BD 65 26 11 45 A4 C4 8D 4D 0B 7A 9E AC 4D 0A 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 3C 68 74 6D 6C 3E}
+   	  $ = "Z:\\build\\one\\Open.hta" fullword wide
+      $ = "Open.hta" fullword wide
+      $ = "double click" fullword wide
+      $ = /<script language="(vbscript|javascript)/ nocase wide ascii
+   condition:
+      ( uint16(0) == 0x52e4 and filesize < 500KB and ( 4 of them )
+      ) or ( all of them )
+}
