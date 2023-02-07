@@ -74,7 +74,7 @@ rule QakBot_OneNote {
     filetype = "OneNote"
     description = "Detects QakBot Malware Delivered by OneNote" 
     classification = "TLP:WHITE"
-    version = "1.0"
+    version = "2.0"
     md5 = "7f2c68afd0d99d634813c305dae67a1b"
    strings:
       $ = "' https://www.instructables.com/How-to-Make-a-message-box-using-VBScript/" fullword ascii
@@ -86,10 +86,15 @@ rule QakBot_OneNote {
       $ = "<div id=\"content\">f30ku30kn30kc30kt30ki30ko30kn30k 30ks30kl30ke30ke30kp30k(30km30ki30kl30kl30ki30ks30k)30k{30kv30ka30kr30k 30k" ascii
       /* GUID FileDataStoreObject https://blog.didierstevens.com/ */
       $ = {E7 16 E3 BD 65 26 11 45 A4 C4 8D 4D 0B 7A 9E AC 4D 0A 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 3C 68 74 6D 6C 3E}
-   	  $ = "Z:\\build\\one\\Open.hta" fullword wide
+      $ = "Z:\\build\\one\\Open.hta" fullword wide
       $ = "Open.hta" fullword wide
       $ = "double click" fullword wide
       $ = /<script language="(vbscript|javascript)/ nocase wide ascii
+      $ = "Open.cmd" fullword wide
+      $ = "Z:\\build\\one\\Open.cmd" fullword wide 
+      $ = "C:\\ProgramData\\in.cmd" fullword wide
+      /* Base64 Encoded Powershell*/
+      $ = {70 6f 77 65 72 73 68 65 6c 6c 20 5b 53 79 73 74 65 6d 2e 54 65 78 74 2e 45 6e 63 6f 64 69 6e 67 5d 3a 3a 41 53 43 49 49 2e 47 65 74 53 74 72 69 6e 67 28 5b 53 79 73 74 65 6d 2e 43 6f 6e 76 65 72 74 5d 3a 3a 46 72 6f 6d 42 61 73 65 36 34 53 74 72 69 6e 67}
    condition:
       ( uint16(0) == 0x52e4 and filesize < 500KB and ( 4 of them )
       ) or ( all of them )
